@@ -14,7 +14,7 @@ func main() {
 
 func part2() {
 	log.Println("part 2")
-	data := utils.ReadInputEasy(2025, 1)
+	data := utils.ReadInputEasy("2025", "01")
 	// data = "L1000"
 	// 	data = `L68
 	// L30
@@ -81,7 +81,7 @@ func part2() {
 
 func part1() {
 	log.Println("part 1")
-	data := utils.ReadInputEasy(2025, 1)
+	data := utils.ReadInputEasy("2025", "01")
 	commands := strings.Split(data, "\n")
 
 	pointer := 50

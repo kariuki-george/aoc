@@ -8,8 +8,8 @@ import (
 )
 
 // not sure of a better name😂
-func ReadInputEasy(year, day uint) string {
-	file := fmt.Sprintf("./%d/day0%d/input.txt", year, day)
+func ReadInputEasy(year, day string) string {
+	file := fmt.Sprintf("./%s/day%s/input.txt", year, day)
 
 	return ReadInput(file)
 }
